@@ -1,2 +1,2 @@
-# [Google Homepage project](https://www.theodinproject.com/courses/foundations/lessons/html-css)
+# [The Odin Project - Google Homepage project](https://www.theodinproject.com/courses/foundations/lessons/html-css)
 
