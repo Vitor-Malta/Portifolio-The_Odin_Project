@@ -1,3 +1,6 @@
+html{
+  font-family: arial, sans-serif;
+}
 .botão-google {
   background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
   background-size: 528px 68px;
@@ -9,4 +12,34 @@
   height: 30px;
   width: 30px;
   background-position: -132px -38px;
+  opacity: 0.55;
+}
+.botão-google:hover{
+  opacity: 0.8;
+}
+.user-picture{
+  border-radius: 50%;
+}
+
+#top-container{
+  padding: 15px 25px;
+  height: 30px;
+  line-height: 30px;
+  display:flex;
+  justify-content: flex-end;
+  border: 1px solid red;
+  font-size: 13px;
+}
+#top-container .top-container-item{
+  padding-left: 15px;
+}
+#top-container .top-container-images-btn {
+  padding-right: 15px;
+}
+#top-container a{
+  color: black;
+  text-decoration: none;
+}
+#top-container a:hover{
+  text-decoration: underline;
 }
