@@ -27,7 +27,6 @@ html{
   line-height: 30px;
   display:flex;
   justify-content: flex-end;
-  border: 1px solid red;
   font-size: 13px;
 }
 #top-container .top-container-item{
@@ -42,4 +41,15 @@ html{
 }
 #top-container a:hover{
   text-decoration: underline;
+}
+#google-logo{
+  border: 1px solid red;
+  display:flex;
+  justify-items: center;
+  align-items: center;
+}
+#search-div{
+  border: 1px solid purple;
+  margin: 13vh 0px;
+  padding: 15px 0px;
 }
