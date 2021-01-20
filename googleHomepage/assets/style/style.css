@@ -97,3 +97,56 @@ html{
 label{
   display: inline;
 }
+.search-buttons{
+  text-align: center;
+  padding: 30px;
+}
+.search-buttons button{
+  margin-left: 20px;
+  height: 35px;
+  padding: 0 15px;
+  font-size: 0.9rem;
+  border: none;
+  background-color: rgb(248, 249, 250);
+}
+.search-buttons button:hover{
+  border: 1px solid rgb(218, 220, 224);
+  border-radius: 4px;
+}
+#search-button-bottom-text{
+  text-align: center;
+  font-size: 13px;
+}
+#footer-bottom-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px solid rgb(155, 154, 154);
+  padding: 0 25px;
+}
+#footer-bottom-flex a{
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+}
+#footer-bottom-flex a:hover{
+  text-decoration: underline;
+}
+#footer-top{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgb(155, 154, 154);
+  border-bottom: 1px solid rgb(155, 154, 154);
+  padding: 0 25px;
+}
+footer{
+  background: rgba(0, 0, 0, 0.185);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-weight:lighter;
+  font-size: 15px;
+  opacity: 0.5;
+}
