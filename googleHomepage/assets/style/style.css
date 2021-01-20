@@ -142,11 +142,11 @@ label{
   padding: 0 25px;
 }
 footer{
-  background: rgba(0, 0, 0, 0.185);
+  background: rgba(0, 0, 0, 0.116);
   width: 100%;
   position: absolute;
   bottom: 0;
   font-weight:lighter;
   font-size: 15px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
